@@ -59,7 +59,7 @@ const Intro = () => {
           ease:"linear"
        }}
         className=" border-[#BC8CF2] border-2 flex justify-center items-center space-x-2 bg-[#AA14F0] px-5 py-3 max-md:px-3 max-md:py-2 rounded-lg">
-            <a href="/yosf.pdf" download="Yosf_CV">Download CV</a>
+            <a href="/yosf.pdf" download="yosf.pdf">Download CV</a>
              <MdSave className=" text-2xl"/>
        </motion.button>
     </div>
