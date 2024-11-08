@@ -52,14 +52,14 @@ const Intro = () => {
         scale:1.085,
        }}
        whileTap={{
-        scale:0.95,
-        rotate:-4,
+        scale:0.85,
+        rotate:-10,
        }}
        transition={{
           ease:"linear"
        }}
         className=" border-[#BC8CF2] border-2 flex justify-center items-center space-x-2 bg-[#AA14F0] px-5 py-3 max-md:px-3 max-md:py-2 rounded-lg">
-             <a href="">Download CV</a>
+            <a href="/yosf.pdf" download="Yosf_CV">Download CV</a>
              <MdSave className=" text-2xl"/>
        </motion.button>
     </div>

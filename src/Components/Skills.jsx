@@ -99,7 +99,7 @@ const Skills = () => {
           <SiFramer className=" text-9xl max-md:text-7xl text-white" />
         </motion.div>
         <motion.div    animate={{
-             y:["25%" , "5%" , "25%"]
+             y:["0%" , "35%" , "0%"]
           }}
           transition={{
             duration:5,
