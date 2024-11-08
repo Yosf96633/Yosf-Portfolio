@@ -11,6 +11,7 @@ import {
 } from "react-icons/si";
 import { motion } from "framer-motion";
 import {  MdSave } from 'react-icons/md';
+import { LuImport } from "react-icons/lu";
 
 const Intro = () => {
   return (
@@ -44,7 +45,7 @@ const Intro = () => {
         Ant Design. I also have a strong understanding of data structures,
         algorithms, and object-oriented programming.
       </p>
-       <motion.button
+       {/* <motion.button
        initial={{
         scale:1,
        }}
@@ -60,8 +61,8 @@ const Intro = () => {
        }}
         className=" border-[#BC8CF2] border-2 flex justify-center items-center space-x-2 bg-[#AA14F0] px-5 py-3 max-md:px-3 max-md:py-2 rounded-lg">
             <a href="/yosf.pdf" download target="_blank" rel="noopener noreferrer">Download CV</a>
-             <MdSave className=" text-2xl"/>
-       </motion.button>
+             <LuImport className=" text-xl"/>
+       </motion.button> */}
     </div>
   );
 };
