@@ -22,7 +22,7 @@ const Skills = () => {
       <div className="absolute top-0 left-0 right-0 bottom-0">
         <motion.div
           animate={{
-            y: ["0%", "15%", "0%"],
+            y: ["0%", "25%", "0%"],
           }}
           transition={{
             duration: 5,
@@ -35,20 +35,20 @@ const Skills = () => {
         </motion.div>
         <motion.div
           animate={{
-            y: ["0%", "15%", "0%"],
+            y: ["25%", "5%", "25%"],
           }}
           transition={{
             duration: 5,
             repeat: Infinity,
           }}
           className="absolute"
-          style={{ top: "44%", left: "45%" }}
+          style={{ top: "50%", left: "45%" }}
         >
           <SiCss3 className=" text-9xl max-md:text-7xl text-blue-500" />
         </motion.div>
         <motion.div
           animate={{
-            y: ["0%", "15%", "0%"],
+            y: ["0%", "25%", "0%"],
           }}
           transition={{
             duration: 5,
@@ -61,20 +61,20 @@ const Skills = () => {
         </motion.div>
         <motion.div
           animate={{
-            y: ["0%", "15%", "0%"],
+            y: ["25%", "5%", "25%"],
           }}
           transition={{
             duration: 5,
             repeat: Infinity,
           }}
           className="absolute"
-          style={{ top: "40%", left: "0%" }}
+          style={{ top: "40%", left: "3%" }}
         >
           <SiReact className=" text-9xl max-md:text-7xl text-[#276eb1]" />
         </motion.div>
         <motion.div
           animate={{
-            y: ["0%", "15%", "0%"],
+            y: ["25%", "5%", "25%"],
           }}
           transition={{
             duration: 5,
@@ -87,7 +87,7 @@ const Skills = () => {
         </motion.div>
         <motion.div
           animate={{
-            y: ["0%", "15%", "0%"],
+            y: ["0%", "25%", "0%"],
           }}
           transition={{
             duration: 5,
@@ -99,7 +99,7 @@ const Skills = () => {
           <SiFramer className=" text-9xl max-md:text-7xl text-white" />
         </motion.div>
         <motion.div    animate={{
-             y:["0%" , "15%" , "0%"]
+             y:["25%" , "5%" , "25%"]
           }}
           transition={{
             duration:5,
@@ -110,7 +110,7 @@ const Skills = () => {
         </motion.div>
         <motion.div
            animate={{
-            y:["0%" , "15%" , "0%"]
+            y:["0%" , "25%" , "0%"]
          }}
          transition={{
            duration:5,
@@ -121,7 +121,7 @@ const Skills = () => {
           <SiRedux className=" text-9xl max-md:text-7xl text-purple-900" />
         </motion.div>
         <motion.div    animate={{
-             y:["0%" , "15%" , "0%"]
+             y:["25%" , "5%" , "25%"]
           }}
           transition={{
             duration:5,
@@ -132,7 +132,7 @@ const Skills = () => {
         </motion.div>
         <motion.div
            animate={{
-            y:["0%" , "15%" , "0%"]
+            y:["0%" , "25%" , "0%"]
          }}
          transition={{
            duration:5,

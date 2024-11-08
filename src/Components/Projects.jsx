@@ -25,7 +25,7 @@ const Projects = () => {
         },
       ];
   return (
-    <div className=' min-h-[90vh] max-md:min-h-[70vh] w-full py-4 bg-black text-[#EEEEEE] flex flex-col  space-y-8  items-center border-b-[0.5px] selection:bg-[#AA14F0] selection:text-black border-[#BC8CF2]'>
+    <div className=' min-h-[90vh] max-md:min-h-[70vh] py-16 w-full bg-black text-[#EEEEEE] flex flex-col space-y-8  items-center border-b-[0.5px] selection:bg-[#AA14F0] selection:text-black border-[#BC8CF2]'>
           <h1 className=" text-7xl max-md:text-5xl text-center text-white font-bold overflow-hidden">
         My <span className=" text-[#AA14F0]">Projects.</span>
       </h1>
