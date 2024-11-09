@@ -8,5 +8,30 @@
     font-family: "Rubik", sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
+  
+/* Add this CSS to your global styles temporarily to test */
+/* Define the no-scroll class in your global CSS */
+.no-scroll {
+    overflow: hidden !important;
+  }
+  /* Add this CSS in your global stylesheet or inside a styled component */
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-blink {
+    display: inline-block;
+    animation: blink 0.8s step-end infinite;
+  }
+  
+  
+  

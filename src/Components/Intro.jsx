@@ -12,18 +12,41 @@ import {
 import { motion } from "framer-motion";
 import {  MdSave } from 'react-icons/md';
 import { LuImport } from "react-icons/lu";
-
+const parent = {
+  
+    hidden:{
+    
+    },
+    visible:{
+    
+      transition:{
+        duration:0.5,
+          staggerChildren:0.275,
+          delayChildren:0.6,
+      }
+    },
+}
+const letter = {
+  hidden:{
+    opacity:0,
+    y:100,
+  },
+  visible:{
+    opacity:1,
+    y:0,
+  }
+}
 const Intro = () => {
   return (
-    <div id="intro" className=" min-h-[90vh] max-md:min-h-[70vh] w-full py-4 bg-black text-[#EEEEEE] flex flex-col justify-center space-y-8  items-center border-b-[0.5px] selection:bg-[#AA14F0] selection:text-black border-[#BC8CF2]">
+    <motion.div variants={parent} initial={"hidden"} animate={"visible"} id="intro" className=" min-h-[90vh] max-md:min-h-[70vh] w-full py-4 bg-black text-[#EEEEEE] flex flex-col justify-center space-y-8  items-center border-b-[0.5px] selection:bg-[#AA14F0] selection:text-black border-[#BC8CF2]">
       <h1 className=" text-5xl max-md:text-4xl font-bold overflow-hidden">
         Hi 👋, I'm {" "}
-        <span className=" text-6xl max-md:text-5xl text-[#AA14F0]">Y</span>
-        <span className=" text-6xl max-md:text-5xl text-[#AA14F0]">o</span>
-        <span className=" text-6xl max-md:text-5xl text-[#AA14F0]">u</span>
-        <span className=" text-6xl max-md:text-5xl text-[#AA14F0]">s</span>
-        <span className=" text-6xl max-md:text-5xl text-[#AA14F0]">a</span>
-        <span className=" text-6xl max-md:text-5xl text-[#AA14F0]">f</span>
+        <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">Y</motion.span>
+        <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">o</motion.span>
+        <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">u</motion.span>
+        <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">s</motion.span>
+        <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">a</motion.span>
+        <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">f</motion.span>
       </h1>
       <p className="text-2xl max-md:text-lg px-4 max-md:w-full leading-10 tracking-wider w-[70vw] text-center">
         I'm a frontend developer skilled in{" "}
@@ -63,7 +86,7 @@ const Intro = () => {
             <a href="/yosf.pdf" download target="_blank" rel="noopener noreferrer">Download CV</a>
              <LuImport className=" text-xl"/>
        </motion.button> */}
-    </div>
+    </motion.div>
   );
 };
 

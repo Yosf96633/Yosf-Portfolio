@@ -14,7 +14,7 @@ import {
 import { motion } from "framer-motion";
 const Skills = () => {
   return (
-    <section className="relative min-h-[100vh] max-md:min-h-[75vh] border-b-[0.5px] py-6 w-screen p-8  bg-black border-[#BC8CF2]">
+    <section id="skills" className="relative min-h-[100vh] max-md:min-h-[75vh] border-b-[0.5px] py-6 w-screen p-8  bg-black border-[#BC8CF2]">
       <h1 className=" text-7xl max-md:text-5xl text-center text-white font-bold overflow-hidden">
         My <span className=" text-[#AA14F0]">Skills.</span>
       </h1>

@@ -54,7 +54,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full min-h-[75vh] flex flex-col items-center md:justify-center bg-black px-4 py-10 border-b-[0.5px] border-[#AA14F0]">
+    <div id="contact" className="w-full min-h-[75vh] flex flex-col items-center md:justify-center bg-black px-4 py-10 border-b-[0.5px] border-[#AA14F0]">
       <h1 className="text-7xl max-md:text-5xl text-center text-white font-bold overflow-hidden">
         Contact <span className="text-[#AA14F0]">Me.</span>
       </h1>
