@@ -47,6 +47,8 @@ const Intro = () => {
         <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">s</motion.span>
         <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">a</motion.span>
         <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">f</motion.span>
+        <motion.span variants={letter} className=" text-6xl max-md:text-5xl text-[#AA14F0]">f</motion.span>
+
       </h1>
       <p className="text-2xl max-md:text-lg px-4 max-md:w-full leading-10 tracking-wider w-[70vw] text-center">
         I'm a frontend developer skilled in{" "}
